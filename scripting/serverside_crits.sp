@@ -39,7 +39,7 @@ public Plugin myinfo =
 	author = "kingo",
 	description = "",
 	version = PLUGIN_VERSION,
-	url = "https://github.com/kingofings/serverside_crits"
+	url = "https://github.com/kingofings/tf2-crits-reimplemented"
 };
 
 public void OnPluginStart()
