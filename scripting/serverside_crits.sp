@@ -28,8 +28,6 @@ enum struct WeaponInfo
 
 WeaponInfo g_WeaponInfo[TF_WEAPON_ID_MAX];
 
-bool g_SpoofedCriticals[MAXPLAYERS + 1];
-
 #include "common/common.sp"
 #include "common/convars.sp"
 #include "random/random.sp"
@@ -54,11 +52,6 @@ public void OnPluginStart()
 
 	FindConvars();
 	ParseWeaponInfo();
-}
-
-public void OnClientPutInServer(int client)
-{
-	g_SpoofedCriticals[client] = false;
 }
 
 public void OnConfigsExecuted()
