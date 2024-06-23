@@ -1,0 +1,764 @@
+{
+    "1": 
+    {
+        "m_nDamage": 35,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "2": 
+    {
+        "m_nDamage": 35,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "3": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },		
+    "4": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "5": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },		
+    "6": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "7": 
+    {
+        "m_nDamage": 40,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "8": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "9": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "10": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "11": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "12": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "13": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "14": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "15": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "16": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "17": 
+    {
+        "m_nDamage": 4,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "18": 
+    {
+        "m_nDamage": 9,
+        "m_nBulletsPerShot": 4,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 0.1
+    },		
+    "19": 
+    {
+        "m_nDamage": 8,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 0.1		
+    },	
+    "20": 
+    {
+        "m_nDamage": 10,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 0.1		
+    },
+    "21": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "22": 
+    {
+        "m_nDamage": 90,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "23": 
+    {
+        "m_nDamage": 100,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "24": 
+    {
+        "m_nDamage": 120,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "25": 
+    {
+        "m_nDamage": 170,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 0.04		
+    },		
+    "26": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "27": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "28": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "29": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "30": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "31": {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "32": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "33": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "34": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "35": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "36": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "37": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "38": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "39": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "40": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "41": 
+    {
+        "m_nDamage": 15,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 0.15		
+    },
+    "42": 
+    {
+        "m_nDamage": 15,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 0.15		
+    },
+    "43": 
+    {
+        "m_nDamage": 40,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "44": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "45": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },	
+    "46": 
+    {
+        "m_nDamage": 0,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "47": 
+    {
+        "m_nDamage": 0,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "48": 
+    {
+        "m_nDamage": 0,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "49": 
+    {
+        "m_nDamage": 0,
+        "m_nBulletsPerShot": 0,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "50": 
+    {
+        "m_nDamage": 24,
+        "m_nBulletsPerShot": 0,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "51": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "52": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "53": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "54": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "55": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "56": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "57": 
+    {
+        "m_nDamage": 0,
+        "m_nBulletsPerShot": 0,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "58": 
+    {
+        "m_nDamage": 30,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 2.0		
+    },
+    "59": 
+    {
+        "m_nDamage": 0,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "60": 
+    {
+        "m_nDamage": 5,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "61": 
+    {
+        "m_nDamage": 70,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "62": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "63": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "64": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "65": 
+    {
+        "m_nDamage": 90,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "66": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "67": 
+    {
+        "m_nDamage": 4,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "68": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "69": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "70": 
+    {
+        "m_nDamage": 5,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "71": 
+    {
+        "m_nDamage": 12,
+        "m_nBulletsPerShot": 4,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 0.35
+    },
+    "72": 
+    {
+        "m_nDamage": 35,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "73": 
+    {
+        "m_nDamage": 75,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "74": 
+    {
+        "m_nDamage": 55,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "75": 
+    {
+        "m_nDamage": 15,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 0.15		
+    },
+    "76": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "77": 
+    {
+        "m_nDamage": 4,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "78": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "79": 
+    {
+        "m_nDamage": 90,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "80": 
+    {
+        "m_nDamage": 7,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "81": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "82": 
+    {
+        "m_nDamage": 35,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "83": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "84": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "85": 
+    {
+        "m_nDamage": 6,
+        "m_nBulletsPerShot": 10,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "86": 
+    {
+        "m_nDamage": 5,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "87": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "88": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "89": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "90": 
+    {
+        "m_nDamage": 40,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "91": 
+    {
+        "m_nDamage": 100,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "92": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "93": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "94": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "95": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "96": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "97": 
+    {
+        "m_nDamage": 5,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "98": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "99": 
+    {
+        "m_nDamage": 4,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "100": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "101": 
+    {
+        "m_nDamage": 10,
+        "m_nBulletsPerShot": 0,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "102": 
+    {
+        "m_nDamage": 60,
+        "m_nBulletsPerShot": 0,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "103": 
+    {
+        "m_nDamage": 8,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": true,
+		"m_flTimeFireDelay": 0.1		
+    },
+    "104": 
+    {
+        "m_nDamage": 65,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "105": 
+    {
+        "m_nDamage": 35,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "106": 
+    {
+        "m_nDamage": 35,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "107": 
+    {
+        "m_nDamage": 5,
+        "m_nBulletsPerShot": 0,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "108": 
+    {
+        "m_nDamage": -1,
+        "m_nBulletsPerShot": -1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    },
+    "109": 
+    {
+        "m_nDamage": 90,
+        "m_nBulletsPerShot": 1,
+        "m_bUseRapidFireCrits": false,
+		"m_flTimeFireDelay": 0.0
+    }	
+}

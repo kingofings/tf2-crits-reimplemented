@@ -1,0 +1,111 @@
+"Games"
+{
+	"tf"
+	{		
+		"Offsets"
+		{
+			"CTFWeaponBase::GetWeaponID()"
+			{
+				"linux"		"386"
+				"linux64"	"386"
+			}
+			
+			//Found in CTFWeaponBase::CalcIsAttackCriticalHelper(), occours twice gpglobals
+			
+			//mov     eax, ds:gpGlobals
+			//movss   xmm0, ds:dword_11C0E98
+			//addss   xmm0, dword ptr [eax+0Ch]
+			//movss   dword ptr [ebx+704h], xmm0 <----
+			//jmp     loc_90C08E
+			
+
+			//64 bit occours twice as well but gpglobals only exists once you'll know you got the right one
+			//When you are close to the BucketWithdraw
+
+			//.text:0000000000B9283B F3 0F 10 05 99 7B 8F 00                       movss   xmm0, cs:dword_148A3DC
+			//.text:0000000000B92843 F3 0F 58 40 0C                                addss   xmm0, dword ptr [rax+0Ch]
+			//.text:0000000000B92848 F3 41 0F 11 84 24 FC 08 00 00                 movss   dword ptr [r12+8FCh], xmm0 <----
+			//.text:0000000000B92852 E9 7E FC FF FF                                jmp     loc_B924D5
+
+			"CTFWeaponBase::m_flCritTime"
+			{
+				"linux"		"1796"
+				"linux64"	"2300"
+			}
+			
+			//directly after CBaseCombatWeapon::AddToCritBucket()
+			
+			//call    _ZN17CBaseCombatWeapon15AddToCritBucketEf ; CBaseCombatWeapon::AddToCritBucket(float)
+			//mov     byte ptr [ebx+6EBh], 1 <----
+
+			//same applies to 64 bit!
+			"CTFWeaponBase::m_bCurrentCritIsRandom"
+			{
+				"linux"		"1771"
+				"linux64"	"2275"
+			}
+			
+			//after add to crit bucket from above jumps to a lot of gpglobals and it matches a lot with the internal code
+			//first split is convar check for tf_weapon_criticals_nopred. if true goes to m_flLastRapidFireCritCheckTime
+			//otherwise to m_flLastCritCheckTime, we might have these swapped as we don't know for sure which is which
+			//but you'll figure it out when you try to use them!
+
+			//64 bit does not have multiple gpglobals!
+			//So follow the execution flow after AddToCritBucket, there are more tan 1 but if you go by logic you have the same structure as above for 32 bit!
+			
+			"CTFWeaponBase::m_flLastRapidFireCritCheckTime"
+			{
+				"linux"		"1812"
+				"linux64"	"2316"
+			}
+			
+			"CTFWeaponBase::m_flLastCritCheckTime"
+			{
+				"linux"		"1800"
+				"linux64"	"2304"
+			}
+			
+			//Can be found in CBaseCombatWeapon::IsAllowedToWithdrawFromCritBucket
+			//only occours once in it and is close to m_nCritSeedRequest which is the first member variable and then the 2nd occourance
+			//has m_nCritChecks close to it!
+
+			//64 bit is essentially the same
+			"CTFWeaponBase::m_nCritChecks"
+			{
+				"linux"		"1484"
+				"linux64"	"1932"
+			}
+
+			//only appears once in CTFWeaponBaseMelee::CalcIsAttackCriticalHelper and CTFWeaponBaseMelee::CalcIsAttackCriticalHelperNoCrits and CTFWeaponBaseMelee::Primary attack so you can cross reference them
+			//Additionally in CalcIsAttackCriticalHelper immediately after is another check if the next melee crit is a full crit (2) and has a cmp instruction with an immediate 2 (this is the case as well in PrimaryAttack however it is a minicrit (1) instead!)
+			//so we know the above one is the correct member variable offset
+
+			//.text:0091D0C7 0F 95 83 EC 06 00 00                          setnz   byte ptr [ebx+6ECh]  this is probably the offset for m_shared which is networked anyways
+			//.text:0091D0CE 83 BE 3C 1F 00 00 02                          cmp     dword ptr [esi+1F3Ch], 2 <----
+
+			//64 bit basically the same
+			"CTFWeaponBase::m_bCurrentAttackIsDuringDemoCharge"
+			{
+				"linux"		"7996"
+				"linux64"	"8892"
+			}
+		}
+		
+		"Signatures"
+		{	
+			"CBaseCombatWeapon::AddToCritBucket()"
+			{
+				"library"	"server"
+				"linux"		"@_ZN17CBaseCombatWeapon15AddToCritBucketEf"
+				"linux64"	"@_ZN17CBaseCombatWeapon15AddToCritBucketEf"
+			}
+			
+			"CBaseCombatWeapon::IsAllowedToWithdrawFromCritBucket()"
+			{
+				"library"	"server"
+				"linux"		"@_ZN17CBaseCombatWeapon33IsAllowedToWithdrawFromCritBucketEf"
+				"linux64"	"@_ZN17CBaseCombatWeapon33IsAllowedToWithdrawFromCritBucketEf"
+			}
+		}
+	}
+}
