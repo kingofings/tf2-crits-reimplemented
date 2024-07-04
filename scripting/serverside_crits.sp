@@ -164,13 +164,13 @@ void DoGunCrits(int player, int weapon, bool &result, int weaponId)
         }
         else
         {
-            if (GetGameTime() < CTFWeaponBase_Get_m_flLastCritCheckTime(weapon) + 1.0)
+            if (GetGameTime() < GetEntPropFloat(weapon, Prop_Send, "m_flLastCritCheckTime") + 1.0)
             {
                 result = false;
 				return;
             }
 
-            CTFWeaponBase_Set_m_flLastCritCheckTime(weapon, GetGameTime());
+            SetEntPropFloat(weapon, Prop_Send, "m_flLastCritCheckTime", GetGameTime());
         }
 
         float totalCritChance = ClampFloat(TF_DAMAGE_CRIT_CHANCE_RAPID * playerCritMult, 0.01, 0.99);
