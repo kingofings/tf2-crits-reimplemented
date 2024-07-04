@@ -1,7 +1,6 @@
 static int g_offset_CTFWeaponBase_m_flCritTime;
 static int g_offset_CTFWeaponBase_m_bCurrentCritIsRandom;
 static int g_offset_CTFWeaponBase_m_flLastRapidFireCritCheckTime;
-static int g_offset_CTFWeaponBase_m_flLastCritCheckTime;
 static int g_offset_CTFWeaponBase_m_nCritChecks;
 static int g_offset_CTFWeaponBase_m_bCurrentAttackIsDuringDemoCharge;
 
@@ -30,7 +29,6 @@ void Setup_Common(GameData gameConf)
 	g_offset_CTFWeaponBase_m_flCritTime = GameConfGetOffset(gameConf, "CTFWeaponBase::m_flCritTime");
 	g_offset_CTFWeaponBase_m_bCurrentCritIsRandom = GameConfGetOffset(gameConf, "CTFWeaponBase::m_bCurrentCritIsRandom");
 	g_offset_CTFWeaponBase_m_flLastRapidFireCritCheckTime = GameConfGetOffset(gameConf, "CTFWeaponBase::m_flLastRapidFireCritCheckTime");
-	g_offset_CTFWeaponBase_m_flLastCritCheckTime = GameConfGetOffset(gameConf, "CTFWeaponBase::m_flLastCritCheckTime");
 	g_offset_CTFWeaponBase_m_nCritChecks = GameConfGetOffset(gameConf, "CTFWeaponBase::m_nCritChecks");
 	g_offset_CTFWeaponBase_m_bCurrentAttackIsDuringDemoCharge = GameConfGetOffset(gameConf, "CTFWeaponBase::m_bCurrentAttackIsDuringDemoCharge");
 
@@ -83,16 +81,6 @@ void CTFWeaponBase_Set_m_flLastRapidFireCritCheckTime(int weapon, float time)
 float CTFWeaponBase_Get_m_flLastRapidFireCritCheckTime(int weapon)
 {
 	return GetEntDataFloat(weapon, g_offset_CTFWeaponBase_m_flLastRapidFireCritCheckTime);
-}
-
-void CTFWeaponBase_Set_m_flLastCritCheckTime(int weapon, float time)
-{
-	SetEntDataFloat(weapon, g_offset_CTFWeaponBase_m_flLastCritCheckTime, time);
-}
-
-float CTFWeaponBase_Get_m_flLastCritCheckTime(int weapon)
-{
-	return GetEntDataFloat(weapon, g_offset_CTFWeaponBase_m_flLastCritCheckTime);
 }
 
 void CTFWeaponBase_Set_m_nCritChecks(int weapon, int amount)
