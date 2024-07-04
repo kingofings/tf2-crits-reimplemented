@@ -58,13 +58,7 @@
 				"linux"		"1812"
 				"linux64"	"2316"
 			}
-			
-			"CTFWeaponBase::m_flLastCritCheckTime"
-			{
-				"linux"		"1800"
-				"linux64"	"2304"
-			}
-			
+
 			//Can be found in CBaseCombatWeapon::IsAllowedToWithdrawFromCritBucket
 			//only occours once in it and is close to m_nCritSeedRequest which is the first member variable and then the 2nd occourance
 			//has m_nCritChecks close to it!
